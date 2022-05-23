@@ -10,6 +10,10 @@
   padding: 1em;
 }
 
+body {
+  margin: 0;
+}
+
 .header_links {
   display: flex;
   gap: 25px;
@@ -30,9 +34,14 @@
 .top {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 10em;
   background-color: #1F2937;
   color: white;
+}
+
+.top_left p {
+  max-width: 400px;
 }
 
 .top_left h1 {
@@ -98,6 +107,17 @@
 .bot {
   display: flex;
   justify-content: center;
+  gap: 70px;
+  background-color: #3882F6;
+  align-items: center;
+  flex-grow: 0;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-radius: 10px;
 }
 
 .bot button {
@@ -107,7 +127,20 @@
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #3882F6;
-  border: none;
-  /*max-height: 50px;*/
+  color: white;
+  border-color: white;
+}
+
+.all_bot {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  padding: 12px;
+  font-size: 15px;
   color: white;
 }
